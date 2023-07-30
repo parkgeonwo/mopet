@@ -9,6 +9,10 @@
   src: url(./OTF/NanumSquareNeoOTF-Hv.otf);
 }
 @font-face {
+  font-family: 'nanum-b';
+  src: url(./OTF/NanumSquareNeoOTF-Bd.otf);
+}
+@font-face {
   font-family: 'pre-r';
   src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
   font-weight: 400;
@@ -30,30 +34,32 @@ div, button{
   box-sizing: border-box;
 }
 
+
 .header {
   width: 100%;
-  min-width: 1920px;
+  min-width: 2560px;
   height: 100px;
-  padding: 35px 190px;
+  padding: 35px 510px;
   backdrop-filter: blur(4px);
   background-color: #00903a;
   border-bottom: 1px solid #efeeed;
 }
 
 .header-logo{
-  width: 140.2px;
+  width: 1540px;
   height: 30px;
+  margin: auto;
 }
 .header-logo>img{
-  width: 100%;
-  height: 100%;
+  width: 140.2px;
+  height: 30px;
 }
 
 
 
 .top-banner{
-  min-width: 1920px;
-  height: 940px;
+  min-width: 2560px;
+  height: 1040px;
   background-image: url('../img/web_bg1@3x.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,7 +82,6 @@ div, button{
 
 .top-banner-left-box{
   padding-left: 190px;
-  padding-right: 20px;
   padding-top: 200px;
   width: calc( 500px + 190px + 150px );
   z-index: 1;
@@ -99,15 +104,18 @@ div, button{
   height: 100%;
 }
 .top-banner-right-box{
-  width: calc( 1920px - 500px - 190px - 150px );
+  width: calc( 2560px - 510px - 710px );
   height: calc( 940px - 160px );
   position: relative;
 }
+.top-banner-right-box-moblie{
+  display: none;
+}
 .top-banner-right-box>img{
-  width: 1080px;
+  width: 1823px;
   height: 1204px;
   position: absolute;
-  right: 0px;
+  right: -320px;
   z-index: 0;
 }
 .top-banner-btn-box{
@@ -130,6 +138,14 @@ div, button{
   display: flex;
   flex-direction: row;
 }
+.btn_text_and{
+  text-align: center;
+  width: 121px;
+}
+.btn_text_app{
+  text-align: center;
+  width: 117px;
+}
 .btn_img_and{
   width: 36px;
   height: 40px;
@@ -147,6 +163,7 @@ div, button{
 .intro-box-back{
   height: 1240px;
   background-color: #f8f8f8;
+  min-width: 2560px;
 }
 .intro-content-box{
   padding-top: 200px;
@@ -167,7 +184,7 @@ div, button{
   vertical-align: middle;
   line-height: 56px;
   color: #6b6761;
-  font-family: 'nanum-h';
+  font-family: 'nanum-b';
 }
 .intro-reply{
   width: 500px;
@@ -187,6 +204,7 @@ div, button{
   top: 20px;
   font-size: 24px;
   font-family: 'nanum-h';
+  font-weight: 900;
   line-height: 60px;
   color: #fff;
   width: 500px;
@@ -198,19 +216,24 @@ div, button{
   padding-right: 190px;
 }
 .intro-right-box-text1{
-  font-size: 70px;
+  font-size: 50px;
   vertical-align: middle;
-  line-height: 98px;
-  color: #00903a;
-  font-family: 'nanum-h';
-  margin-top: 460px;
+  line-height: 75px;
+  color: #545454;
+  font-family: 'nanum-b';
+  margin-top: 420px;
   margin-bottom: 40px;
+}
+.intro-right-box-text1-sub{
+  font-family: 'nanum-h';
+  color: #00903a;
 }
 .intro-right-box-text2{
   font-size: 30px;
   vertical-align: middle;
-  line-height: 42px;
+  line-height: 45px;
   font-family: 'pre-r';
+  font-weight: normal;
   color: #6b6761;
 }
 
@@ -218,7 +241,8 @@ div, button{
 /* app description */
 .app-description-back{
   height: 2400px;
-  background-color: rgba(0, 144, 58, 0.05);
+  background-color: rgba(0, 144, 58, 0.15);
+  min-width: 2560px;
 }
 .app-description-content-box{
   width: 1920px;
@@ -285,6 +309,7 @@ div, button{
 .user-review-back{
   height: 1400px;
   background-color: #f8f8f8;
+  min-width: 2560px;
 }
 .user-review-content-box{
   width: 1920px;
@@ -322,7 +347,8 @@ div, button{
 /* team description */
 .team-description-back{
   height: 1140px;
-  background-color: rgba(0, 144, 58, 0.05);
+  background-color: rgba(0, 144, 58, 0.15);
+  min-width: 2560px;
 }
 .team-description-content-box{
   width: 1920px;
@@ -352,7 +378,6 @@ div, button{
   height: 100px;
   border-radius: 16px;
   background-color: #fff;
-  margin-bottom: 20px;
   border: 1px solid #00903a;
   padding: 25px 40px;
   display: flex;
@@ -361,6 +386,9 @@ div, button{
   line-height: 48px;
   vertical-align: middle;
   font-family: 'pre-r';
+}
+.team-des-left-box-label-margin{
+  margin-bottom: 20px;
 }
 .team-des-left-box-label>div:nth-child(1){
   color: #1a1816;
@@ -403,7 +431,7 @@ div, button{
 
 /* footer */
 .footer-back{
-  min-width: 1920px;
+  min-width: 2560px;
   height: 520px;
   background-color: #00903a;
 }
@@ -472,7 +500,24 @@ div, button{
 }
 
 
-
+.web-br{
+  display: block;
+}
+.tablet-br{
+  display: none;
+}
+.mobile-br{
+  display: none;
+}
+.group-br{
+  display: none;
+}
+.mobile-br-flex{
+  display: none;
+}
+.tablet-br-flex{
+  display: none;
+}
 
 
 
