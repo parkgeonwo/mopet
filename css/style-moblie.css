@@ -382,7 +382,7 @@
 
 
   .header {
-    min-width: 0px;
+    min-width: 360px;
     height: 56px;
     padding: 20px 24px;
     border-bottom: 0px solid #efeeed;
@@ -398,6 +398,7 @@
   }
   /* top-banner */
   .top-banner{
+    min-width: 360px;
     height: calc( 760px - 56px );
   }
   .top-banner-content-box{
@@ -473,7 +474,7 @@
   }
   /* 인트로 */
   .intro-box-back{
-    min-width: 0;
+    min-width: 360px;
     /* height: 2280px; */
     height: fit-content;
   }
@@ -520,7 +521,7 @@
 
   /* app-des */
   .app-description-back{
-    min-width: 0;
+    min-width: 360px;
     width: 100%;
     height: calc(760px * 6);
   }
@@ -573,6 +574,7 @@
 
   /* user-review */
   .user-review-back{
+    min-width: 360px;
     height: 760px;
   }
   .user-review-content-box{
@@ -591,6 +593,7 @@
 
   /* team-des */
   .team-description-back{
+    min-width: 360px;
     height: 960px;
   }
   .team-description-content-box{
@@ -646,7 +649,7 @@
 
   /* footer */
   .footer-back{
-    min-width: 0;
+    min-width: 360px;
     height: 400px;
   }
   .footer-content-box{
