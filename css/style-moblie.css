@@ -683,17 +683,21 @@
     line-height: 23.4px;
     width: 88px;
     height: 112px;
-    margin-right: 7px;
+    margin-right: 8px;
   }
   .footer-left-text-box-right-text{
     font-size: 13px;
     line-height: 23.4px;
-    width: 216px;
+    width: 220px;
     height: 112px;
   }
   .footer-left-box-right-text{
     font-size: 13px;
     line-height: 23.4px;
+  }
+  .company-num{
+    text-decoration: none;
+    color: #fff;
   }
 
 
