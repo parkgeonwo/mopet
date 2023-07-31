@@ -111,6 +111,9 @@ div, button{
 .top-banner-right-box-moblie{
   display: none;
 }
+.top-banner-right-box-1080-moblie{
+  display: none;
+}
 .top-banner-right-box>img{
   width: 1823px;
   height: 1204px;
