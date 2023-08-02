@@ -95,9 +95,9 @@
   }
   .top-banner-right-box-1080-moblie{
     display: block;
-    width: 1080px;
+    width: 606px;
     /* height: calc( 100vw * 1.408 ); */
-    height: 1521px;
+    height: 1680px;
     margin: auto;
   }
   .top-banner-right-box-1080-moblie>img{
@@ -494,10 +494,10 @@
   }
   .top-banner-right-box-moblie{
     display: block;
-    width: 360px;
+    width: 196px;
     /* height: calc( 100vw * 1.408 ); */
-    height: 512px;
-    margin: 0;
+    height: 544px;
+    margin: auto;
   }
   .top-banner-right-box-moblie>img{
     width: 100%;

@@ -36,18 +36,19 @@ div, button{
 
 
 .header {
-  width: 100%;
-  min-width: 2560px;
+  min-width: 1920px;
   height: 100px;
-  padding: 35px 510px;
+  padding: 35px 0px;
   backdrop-filter: blur(4px);
   background-color: #00903a;
   border-bottom: 1px solid #efeeed;
 }
 
 .header-logo{
-  width: 1540px;
+  width: 1920px;
   height: 30px;
+  padding-left: 190px;
+  padding-right: 190px;
   margin: auto;
 }
 .header-logo>img{
@@ -58,7 +59,7 @@ div, button{
 
 
 .top-banner{
-  min-width: 2560px;
+  min-width: 1920px;
   height: 1040px;
   background-image: url('../img/web_bg1@3x.png');
   background-repeat: no-repeat;
@@ -83,7 +84,7 @@ div, button{
 .top-banner-left-box{
   padding-left: 190px;
   padding-top: 200px;
-  width: calc( 500px + 190px + 150px );
+  width: calc( 500px + 190px + 130px );
   z-index: 1;
 }
 .top-banner-text1{
@@ -104,7 +105,7 @@ div, button{
   height: 100%;
 }
 .top-banner-right-box{
-  width: calc( 2560px - 510px - 710px );
+  width: calc( 1920px - 190px - 630px - 280px - 320px  );
   height: calc( 940px - 160px );
   position: relative;
 }
@@ -115,10 +116,10 @@ div, button{
   display: none;
 }
 .top-banner-right-box>img{
-  width: 1823px;
-  height: 1204px;
+  width: 500px;
+  height: 1388px;
   position: absolute;
-  right: -320px;
+  left: 280px;
   z-index: 0;
 }
 .top-banner-btn-box{
@@ -166,7 +167,7 @@ div, button{
 .intro-box-back{
   height: 1240px;
   background-color: #f8f8f8;
-  min-width: 2560px;
+  min-width: 1920px;
 }
 .intro-content-box{
   padding-top: 200px;
@@ -245,7 +246,7 @@ div, button{
 .app-description-back{
   height: 2400px;
   background-color: rgba(0, 144, 58, 0.15);
-  min-width: 2560px;
+  min-width: 1920px;
 }
 .app-description-content-box{
   width: 1920px;
@@ -312,7 +313,7 @@ div, button{
 .user-review-back{
   height: 1400px;
   background-color: #f8f8f8;
-  min-width: 2560px;
+  min-width: 1920px;
 }
 .user-review-content-box{
   width: 1920px;
@@ -351,7 +352,7 @@ div, button{
 .team-description-back{
   height: 1140px;
   background-color: rgba(0, 144, 58, 0.15);
-  min-width: 2560px;
+  min-width: 1920px;
 }
 .team-description-content-box{
   width: 1920px;
@@ -434,7 +435,7 @@ div, button{
 
 /* footer */
 .footer-back{
-  min-width: 2560px;
+  min-width: 1920px;
   height: 520px;
   background-color: #00903a;
 }
