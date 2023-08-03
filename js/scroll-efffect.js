@@ -62,7 +62,7 @@ var isScrollAllowed = true;
 $(window).on('scroll',function(){
   var scroll_value =  $(window).scrollTop();
   var windowWidth = $( window ).width() + 22;
-  console.log(scroll_value);
+  // console.log(scroll_value);
 
   // if (isScrollAllowed) {
   //   // 특정 위치에 도달하면 스크롤을 1초 동안 비활성화합니다.
