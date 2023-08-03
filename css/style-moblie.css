@@ -276,7 +276,7 @@
     flex-direction: column-reverse;
   }
   .team-des-right-box{
-    width: 100%;
+    width: calc(920px + 80px);
   }
   .team-des-right-box-title-img{
     width: 200px;
@@ -284,6 +284,7 @@
     margin-bottom: 80px;
   }
   .team-des-right-box-text{
+    width: calc(920px + 80px);
     font-size: 45px;
     line-height: 76.5px;
     margin-bottom: 80px;
@@ -349,7 +350,7 @@
     margin-bottom: 80px;
   }
   .footer-left-text-box{
-    width: 100%;
+    width: calc(920px + 80px);
   }
   .footer-left-text-box-left-text{
     font-size: 40px;
@@ -359,10 +360,10 @@
     margin-right: 0;
   }
   .footer-left-text-box-right-text{
+    width: calc(640px + 80px);
+    height: 360px;
     font-size: 40px;
     line-height: 72px;
-    width: 640px;
-    height: 360px;
   }
   .footer-left-box-right-text{
     font-size: 40px;
@@ -610,6 +611,7 @@
     top: 0;
     height: 760px;
     padding-top: 64px;
+    transition-duration: 0.8s;
   }
   .app-des-number-sticky{
     height: 24px;
@@ -622,6 +624,13 @@
   .app-des-des-sticky{
     height: 40px;
     margin-bottom: 16px;
+  }
+
+  #stopBox{
+    width: 312px;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
   }
 
   /* user-review */
@@ -663,6 +672,7 @@
     margin-bottom: 32px;
   }
   .team-des-right-box-text{
+    width: calc(312px + 24px);
     font-size: 15px;
     line-height: 25.5px;
     margin-bottom: 32px;
@@ -728,7 +738,7 @@
     margin-bottom: 0px;
   }
   .footer-left-text-box{
-    width: 100%;
+    width: calc(312px + 24px);
     margin-bottom: 24px;
   }
   .footer-left-text-box-left-text{
@@ -741,7 +751,7 @@
   .footer-left-text-box-right-text{
     font-size: 13px;
     line-height: 23.4px;
-    width: 220px;
+    width: calc(216px + 24px);
     height: 112px;
   }
   .footer-left-box-right-text{

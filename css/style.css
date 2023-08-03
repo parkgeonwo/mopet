@@ -33,6 +33,9 @@ body{
 div, button{
   box-sizing: border-box;
 }
+html{
+	scroll-behavior: smooth;
+}
 
 
 .header {
@@ -405,7 +408,7 @@ div, button{
 
 
 .team-des-right-box{
-  width: 760px;
+  width: calc(760px + 48px);
 }
 .team-des-right-box-title-img{
   width: 110px;
@@ -417,6 +420,7 @@ div, button{
   height: 100%;
 }
 .team-des-right-box-text{
+  width: calc(760px + 48px);
   font-size: 30px;
   font-family: 'pre-r';
   line-height: 1.8;
@@ -458,6 +462,7 @@ div, button{
   margin-bottom: 31px;
 }
 .footer-left-text-box{
+  width: calc(500px + 20px);
   display: flex;
   margin-bottom: 40px;
 }
@@ -472,7 +477,7 @@ div, button{
   margin-right: 20px;
 }
 .footer-left-text-box-right-text{
-  width: 350px;
+  width: 370px;
   height: 180px;
   color: #fff;
   font-size: 20px;
