@@ -1,5 +1,5 @@
-change_point = 760;
-first_change_value = 2078;
+change_point = 760*2;
+first_change_value = 2800;
 second_change_value = first_change_value + change_point;
 third_change_value = first_change_value + change_point*2;
 fourth_change_value = first_change_value + change_point*3;
